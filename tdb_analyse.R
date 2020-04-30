@@ -19,7 +19,7 @@ drv<-dbDriver("PostgreSQL")
                               #port est le port de connection de la base de donnees
                               #user est l identifiant de connection a la base de donnee
                               #password est le mot de passe de l identifiant de connection a la base de donnee
-con <- dbConnect(drv, dbname = "mytestdb", host = "localhost", port = 5432,  user = "postgres", password = "stidniort")
+con <- dbConnect(drv, dbname = "DB", host = "localhost", port = 5432,  user = "XXX", password = "XXX")
 
 #chargement de la liste des etablissements (etb) et des differents services (serv)
 
